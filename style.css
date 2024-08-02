@@ -1,14 +1,17 @@
+/* Add custom font */
+
 @font-face {
     font-family: Hongbin;
     src: url(font.otf);
 }
 
-
+/* Reset Code */
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
 
 main{
     height: 100vh;
@@ -20,6 +23,13 @@ main{
     background-repeat: no-repeat;
 }
 
+/* Add color overlay */
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(197, 190, 190);
+}
+
 h1{
     position: absolute;
     top: 50%;
@@ -28,6 +38,7 @@ h1{
     transform: translate(-50%, -50%);
 
     font-family: Hongbin;
+    color: white;
 }
   
 
